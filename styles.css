@@ -1,27 +1,27 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #e7880c;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    background-color: #e7880c; /* Color de fondo */
+    color: #333; /* Color del texto */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
 }
-
-/* styles.css */
 
 header {
     position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
-    padding: 15px 0;
-    text-align: center;
-    background-image: url('ban.png');
-    background-size: 40%; /* Asegura que la imagen cubra todo el fondo */
-   
+    padding: 15px 0; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    background-image: url('ban.png'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
 }
 
 header h1, header p {
     color: rgb(11, 14, 160); /* Color del texto */
     position: relative; /* Para que el pseudo-elemento se posicione correctamente */
     display: inline-block; /* Asegura que el bloque tenga el tamaño correcto */
-    background-color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(255, 255, 255, 0.815); /* Fondo blanco semitransparente */
     padding: 10px; /* Espaciado interno alrededor del texto */
     border-radius: 200px; /* Bordes redondeados para un aspecto más suave */
     box-shadow: 0 0 10px rgb(255, 0, 0); /* Sombra alrededor del bloque */
@@ -32,7 +32,8 @@ header h1, header p {
 header p {
     display: block; /* Asegura que el párrafo se muestre como un bloque separado del título */
 }
-p{
+
+p {
     color: rgb(5, 5, 5); /* Color del texto */
     position: relative; /* Para que el pseudo-elemento se posicione correctamente */
     display: inline-block; /* Asegura que el bloque tenga el tamaño correcto */
@@ -41,67 +42,66 @@ p{
     border-radius: 8px; /* Bordes redondeados para un aspecto más suave */
     box-shadow: 0 0 10px rgb(255, 0, 0); /* Sombra alrededor del bloque */
     text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); /* Efecto de sombreado del texto */
-    margin: 10px 0; /* Espaciado vertical entre el título y el párrafo */ 
+    margin: 10px 0; /* Espaciado vertical entre el título y el párrafo */
 }
 
-
 nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    background-color: #272525;
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    text-align: center; /* Centrar texto */
+    background-color: #272525; /* Color de fondo del menú */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Espaciado horizontal entre elementos del menú */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px; /* Margen alrededor de las secciones */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Color de fondo de las secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las secciones */
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 20px 0; /* Margen vertical para la tabla */
 }
 
 table, th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+    border: 1px solid #ccc; /* Bordes de la tabla */
+    padding: 10px; /* Espaciado interno de celdas */
+    text-align: center; /* Centrar texto en celdas */
 }
 
 button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1d009c;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Centrar texto en el pie de página */
+    padding: 10px; /* Espaciado interno */
+    background-color: #1d009c; /* Color de fondo del pie de página */
+    color: white; /* Color del texto del pie de página */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Posición en la parte inferior */
+    width: 100%; /* Ancho completo */
 }
